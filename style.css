@@ -1,0 +1,248 @@
+body{
+    display: block;
+    margin: 0px;
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --warnaputih: whitesmoke;
+    --warnaabu-abu: gray;
+    --warnahitam: black;
+    --warnakuning: yellow;
+    --warnahijauterang: greenyellow;
+}
+.judul{
+    background: url(judullagi.jpg) left top repeat;
+    background-size: 250px, 350px, auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 3px;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+.link{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.739);
+    justify-content: space-between;
+
+}
+.link a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px 73.4px;
+    text-decoration: none;
+    color: red;
+    position: relative;
+}
+.link a.bertiga{
+    width:73.4px;
+    height:auto;
+}
+hr{
+    margin-top: -175px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 3px double darkorange;
+}
+.dropdown{
+    display: inline-block;
+}
+span{
+    position: relative;
+    background: transparent;
+    color: red;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+ul.active{
+    position: relative;
+    padding: 0;
+    transform-origin: top;
+    transform: perspective(1000px) rotateX(-90deg);
+    transition: 0.5s;
+}
+ul.klik{
+    transform:perspective(1000px) rotateX(0deg);	
+}
+ul.active li{
+    list-style: none;
+}
+ul.active li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: cornsilk;
+    color:red;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+}
+ul.active li a:hover{
+    background: #3A26F0;
+}
+.forback {
+    background: url(backback.jpg) no-repeat center fixed;
+    background-size: 1150px;
+    padding: 40px 0 0 0;
+}
+.galeri>.galerian {
+    width: 250px;
+    height: 250px;
+    border-radius: 5%;
+    margin-left: 40%;
+    padding-bottom: 40px;
+}
+.vajra1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px var(--warnahitam);
+    color: white;
+    background-color: var(--warnaabu-abu);
+    max-width: 60%;
+    width: 100%;
+    margin-left: 20%;
+}
+.vajra1-1 {
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    color: black;
+    text-shadow: 0px 0px 5px dimgrey;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+}
+.vajra2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    background-color: var(--warnaabu-abu);
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+.vajra2-2 {
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    line-height: 20px;
+    color: black;
+    text-shadow: 0px 0px 5px purple;
+}
+.vajra2-1 {
+    border: 3px solid black;
+    width: 100%;
+    line-height: 30px;
+}
+.vajra3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    color: white;
+    background-color: var(--warnaabu-abu);
+    width: 60%;
+    margin-left: 20%;
+}
+.vajra3-1 {
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    line-height: 20px;
+    max-height: 20%;
+    height: 100%;
+    text-shadow: 0px 0px 5px darkslateblue;
+    color: black;
+}
+.vajra4 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    background-color: var(--warnaabu-abu);
+    width: 60%;
+    color: white;
+    margin-left: 20%;
+}
+.vajra4-2 {
+    max-height: 20%;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    text-shadow: 0px 0px 5px red;
+    line-height: 20px;
+    color: black;
+}
+.vajra5 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    color: white;
+    background-color: var(--warnaabu-abu);
+    width: 60%;
+    margin-left: 20%;
+}
+.vajra5-2 {
+    max-height: 20%;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    line-height: 20px;
+    color: black;
+    text-shadow: 0px 0px 5px green;
+}
+.vajra6 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    color: white;
+    background-color: var(--warnaabu-abu);
+    width: 60%;
+    margin-left: 20%;
+}
+.vajra6-2 {
+    max-height: 20%;
+    height: 100%;
+    padding: 5px 5px 5px 5px;
+    background-color: var(--warnakuning);
+    border: 2px solid var(--warnahijauterang);
+    line-height: 20px;
+    color: black;
+    text-shadow: 0px 0px 5px blue;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: url(judullagi.jpg) left top repeat;
+    padding: 20px;
+    background-size: 250px, 350px, auto;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.align-pendidikan{
+    text-align: center;
+}
